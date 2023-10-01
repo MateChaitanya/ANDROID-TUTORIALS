@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/viewContainer"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:padding="11dp"
+    android:background="#8C009C">
+
+    <ImageView
+        android:layout_width="75dp"
+        android:layout_height="72dp"
+        android:src="@drawable/baseline_cloud_done_24" />
+
+    <TextView
+        android:id="@+id/txtMsg"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:text="Test Message"
+        android:textColor="#fff"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+</LinearLayout>
